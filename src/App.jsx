@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     <div className="w-screen h-screen flex items-center justify-center">
-      <div className="w-lg bg-white p-4 space-y-8">
+      <div className="w-[320px] md:w-xl bg-white p-4 space-y-8">
         <h1 className="text-3xl">Card</h1>
         <ul className="space-y-8">
           {people.map((item) => {
